@@ -50,11 +50,9 @@ In these experiments, bigram multi-hot encoding performed best. The results also
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/keras-text-classification.git
+git clone https://github.com/iaolawuyi/keras-text-classification.git
 cd keras-text-classification
 ```
-
-Replace `<your-username>` with your GitHub username.
 
 ### 2. Create and activate a virtual environment
 
@@ -78,10 +76,8 @@ source .venv/bin/activate
 
 ```bash
 python -m pip install --upgrade pip
-pip install tensorflow jupyter
+pip install -r requirements.txt
 ```
-
-For a more reproducible setup, consider adding a `requirements.txt` with the exact versions that you successfully tested.
 
 ### 4. Run the notebook
 
@@ -125,7 +121,6 @@ After working through the notebook, you should be able to:
 
 ## Possible next steps
 
-- Add a `requirements.txt` with tested dependency versions.
 - Make dataset setup reproducible instead of relying on a pre-existing local/Colab directory.
 - Add a results section with training curves and evaluation metrics.
 - Compare the dense bag-of-words baseline with embeddings or recurrent/convolutional text models.
@@ -137,4 +132,4 @@ This notebook follows concepts from *Deep Learning with Python* and is intended 
 
 ## License
 
-No license has been selected yet. If you want others to reuse, modify, or distribute this repository, choose and add a license file before publishing.
+MIT License
