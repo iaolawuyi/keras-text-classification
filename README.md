@@ -4,7 +4,7 @@ A hands-on notebook exploring text preprocessing and vectorization for sentiment
 
 ## Repository name
 
-**Recommended:** `keras-text-classification`
+`keras-text-classification`
 
 ## Repository description
 
